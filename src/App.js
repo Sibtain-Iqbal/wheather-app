@@ -4,20 +4,31 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <div className="head">
+        <h1 className="capital">Simple Wheather APP</h1>
+
+        <form>
+          <input
+            type="text"
+            placeHolder="City Name"
+          />
+          <button>Submit</button>
+        </form>
+      </div>
+
+      <div className="whether">
+        <h1 className="cap-1">Jairpur <span>IN</span> </h1>
+        <h2 className="temp">9.60oc</h2>
+        <img 
+        src="http://openweathermap.org/img/w/50d.png"
+        />
+        <p>FOg</p>
+      
+      </div>
+
+
+
     </div>
   );
 }

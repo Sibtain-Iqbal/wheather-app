@@ -1,38 +1,58 @@
-.App {
+body{
+  background-color:#4aacb1;
+  padding: 20px;
+  margin: 0;
+}
+
+.head{
+  width: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.capital{
+  font-size: 40px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+form input{
+  padding: 10px 45px;
+  text-decoration: none;
+  outline: none;
+}
+form button{
+  color: wheat;
+
+  padding: 10px 25px;
+  background-color: rgb(74, 74, 180);
+}
+.whether{
+  margin-left: 500px;
+  width: 400px;
+  height: 30vh;
+  background: #f7f2f2;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 20px;
+}
+.cap-1 span{
+  background-color: yellow;
+}
+.temp{
+  font-size: 40px;
+  padding: 0;
+  margin-top: -20px;
+}
+.whether img{
+  width: 50px;
+  margin-top: -30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.whether p{
+  font-size: 18px;
+  margin-top: -10px;
 }
